@@ -1,0 +1,9 @@
+#head {
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 18%;
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
