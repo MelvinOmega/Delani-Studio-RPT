@@ -10,13 +10,13 @@
 </head>
 <body>
     <div class="container" id="head">
-        <img src="assets/logo/logo.png" alt="logo">
+        <img src="./assets/logo/logo.png" alt="logo">
         <h1>WELCOME</h1>
         <h1>TO DELANI STUDIO</h1>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
         <div>
             <a href="#mouse">
-                <img src="assets/mouse_click.png" alt="mouse-click" id="mouse-click">
+                <img src="./assets/mouse_click.png" alt="mouse-click" id="mouse-click">
             </a>
         </div>
     </div>
@@ -37,35 +37,35 @@
     <div class="container" id="what-we-do">
         <h2>WHAT WE DO</h2>
         <div class="row">
-          <div class="col">
-              <div>
-                <img src="assets/services_icons/design_icon.png" alt="design">
+          <div class="col-md-4" id="design">
+              <div class="design">
+                <img src="./assets/services_icons/design_icon.png" alt="design">
                 <p>DESIGN</p>
               </div>
-              <div>
+              <div class="design1" style="display: none;">
                   <h2>DESIGN</h2>
                   <P>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.</P>
                   <P>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</P>
                   
               </div>
           </div>
-          <div class="col">
-              <div>
-                  <img src="assets/services_icons/dev_icon.png" alt="development">
+          <div class="col-md-4" id="development">
+              <div class="dvt">
+                  <img src="./assets/services_icons/dev_icon.png" alt="development">
                   <p>DEVELOPMENT</p>
               </div>
-              <div>
+              <div class="dvt1" style="display: none;">
                   <h2>DEVELOPMENT</h2>
                   <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
                   <p>They collaborate with your team to write and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
               </div>
           </div>
-          <div class="col">
-              <div>
-                  <img src="assets/services_icons/product_icon.png" alt="product management">
+          <div class="col-md-4" id="p-management">
+              <div class="pmngt">
+                  <img src="./assets/services_icons/product_icon.png" alt="product management">
                   <p>PRODUCT MANAGEMENT</p>
               </div>
-              <div>
+              <div class="pmngt1" style="display: none;">
                   <h2>PRODUCT MANAGEMENT</h2>
                   <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
                   <p>This iterative process allows for changes as business requirements evolve.</p>
@@ -79,33 +79,33 @@
         <div class="row">
           <div class="col-md-3">
               <div>
-                  <img src="assets/portfolio/work4.jpg" alt="Back studio">
+                  <img src="./assets/portfolio/work4.jpg" alt="Back studio">
               </div>
-              <div>
+              <div style="display: none;">
                   <p>Black Studio</p>
               </div>
           </div>
           <div class="col-md-3">
               <div>
-                  <img src="assets/portfolio/work3.jpg" alt="Ontario">
+                  <img src="./assets/portfolio/work3.jpg" alt="Ontario">
               </div>
-              <div>
+              <div style="display: none;">
                   <p>Mighty Ontario Security</p>
               </div>
           </div>
           <div class="col-md-3">
               <div>
-                  <img src="assets/portfolio/work2.jpg" alt="Pyramids">
+                  <img src="./assets/portfolio/work2.jpg" alt="Pyramids">
               </div>
-              <div>
+              <div style="display: none;">
                   <p>Pyramids</p>
               </div>
           </div>
           <div class="col-md-3">
               <div>
-                  <img src="assets/portfolio/work1.jpg" alt="Jim Carrey">
+                  <img src="./assets/portfolio/work1.jpg" alt="Jim Carrey">
               </div>
-              <div>
+              <div style="display: none;">
                   <p>Jim Carrey</p>
               </div>
           </div>
@@ -113,63 +113,66 @@
         <div class="row">
             <div class="col-md-3">
                 <div>
-                    <img src="assets/portfolio/work5.jpg" alt="Have A Good Day">
+                    <img src="./assets/portfolio/work5.jpg" alt="Have A Good Day">
                 </div>
-                <div>
+                <div style="display: none;">
                     <p>Have A Good Day</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div>
-                    <img src="assets/portfolio/work6.jpg" alt="Calculator">
+                    <img src="./assets/portfolio/work6.jpg" alt="Calculator">
                 </div>
-                <div>
+                <div style="display: none;">
                     <p>Calculator</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div>
-                    <img src="assets/portfolio/work7.jpg" alt="Burned Logo">
+                    <img src="./assets/portfolio/work7.jpg" alt="Burned Logo">
                 </div>
-                <div>
+                <div style="display: none;">
                     <p>Burned Logo</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div>
-                    <img src="assets/portfolio/work8.jpg" alt="Giraffe Restaurant">
+                    <img src="./assets/portfolio/work8.jpg" alt="Giraffe Restaurant">
                 </div>
-                <div>
+                <div style="display: none;">
                     <p>Giraffe Restaurant</p>
                 </div>
             </div>
           </div>
     </div>
 
-    <div class="container">
-        <h2>CONTACT US</h2>
-        <form action="">
-            <div class="mb-3-md-6">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-        </form>
-
+    <div class="form-part">
+        <div class="form-fill">
+            <h3>CONTACT US</h3>
+            <form name="myForm" onsubmit="return validator()" class="contact-us">
+                <label for="">Name</label>
+                <input type="text" placeholder="Your Name" class="name" id="name">
+                <label for="">Email</label>
+                <input type="email" placeholder="Your Email" class="email" id="email">
+                <div>
+                    <textarea name="" id="message" cols="100" rows="10" placeholder="Type message here"></textarea>
+                </div>
+                <div class="contact-btn">
+                    <button id="myBtn" type="submit">SUBMIT</button>
+                </div>
+            </form>
+        </div>
     </div>
     <footer>
-        <img src="assets/social_icons/twitter.png" alt="twitter">
-        <img src="assets/social_icons/dribble.png" alt="dribble">
-        <img src="assets/social_icons/facebook.png" alt="facebook">
-        <img src="assets/social_icons/g_plus.png" alt="g_plus">
-        <img src="assets/social_icons/skype.png" alt="skype">
-        <img src="assets/social_icons/stumble_upon.png" alt="stumble_upon">
-        <img src="assets/social_icons/behance.png" alt="behance">
-        <img src="assets/social_icons/pinterest.png" alt="pinterest">
-        <img src="assets/social_icons/flickr.png" alt="flickr">
+        <img src="./assets/social_icons/twitter.png" alt="twitter">
+        <img src="./assets/social_icons/dribble.png" alt="dribble">
+        <img src="./assets/social_icons/facebook.png" alt="facebook">
+        <img src="./assets/social_icons/g_plus.png" alt="g_plus">
+        <img src="./assets/social_icons/skype.png" alt="skype">
+        <img src="./assets/social_icons/stumble_upon.png" alt="stumble_upon">
+        <img src="./assets/social_icons/behance.png" alt="behance">
+        <img src="./assets/social_icons/pinterest.png" alt="pinterest">
+        <img src="./assets/social_icons/flickr.png" alt="flickr">
         <p>DELANI STUDIO</p>
         <P>2019</P>
     </footer>
