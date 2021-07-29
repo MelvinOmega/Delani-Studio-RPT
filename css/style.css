@@ -51,6 +51,20 @@
 #portfolio {
     align-items: center;
 }
+.form-part {
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+form.contact-us input, form.contact-us textarea {
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+    padding: 5px 5px;
+    border: 2px solid black;
+}
 
 footer {
     text-align: center;
