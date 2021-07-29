@@ -1,5 +1,5 @@
 #head {
-    background-image: url(/assets/backgrounds/h_img.jpg);
+    background-image: url(../assets/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 18%;
@@ -31,7 +31,7 @@
 }
 
 #services {
-    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-image: url(../assets/backgrounds/s_image.jpg);
     color: white;
     background-size: cover;
     padding-top: 10%;
