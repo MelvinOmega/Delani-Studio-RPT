@@ -1,0 +1,71 @@
+#head {
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 18%;
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+#mouse-click {
+    margin-top: 10px;
+    padding-top: 23px;
+    padding-bottom: 30px;
+}
+#mouse-click {
+    animation: bounce 3s infinite;
+}
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-45px);
+    }
+    60%{
+        transform: translateY(-45px);
+    }
+}
+#about-us {
+    text-align: center;
+}
+
+#services {
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    color: white;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#what-we-do {
+    text-align: center;
+    padding-top: 40px;
+}
+.col-md-3 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#portfolio {
+    align-items: center;
+}
+.form-part {
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+form.contact-us input, form.contact-us textarea {
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+    padding: 5px 5px;
+    border: 2px solid black;
+}
+
+footer {
+    text-align: center;
+}
